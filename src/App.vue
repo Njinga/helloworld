@@ -1,34 +1,13 @@
 <template>
-    <div id="app" class="small-container">
-        <h1 class="bg-primary text-white p-2">Employees</h1>
-
-        <employee-table />
-    </div>
+<div id="app">
+    <h4 class="bg-primary text-white text-center p-2">QUADRATIC EQUATIONS</h4>
+</div>
 </template>
 
 <script>
 
-    import EmployeeTable from '@/components/EmployeeTable.vue'
-
-
     export default {
-        name: 'App',
-        components: {
-            EmployeeTable,
-        },
-      
+        name: 'App'
     }
-
-       
 </script>
 
-<style>
-    button {
-        background: #009435;
-        border: 1px solid #009435;
-    }
-
-    .small-container {
-        max-width: 680px;
-    }
-</style>
